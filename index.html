@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quizo</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="inner-div">
+        <h2 class="question">Random Question</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="ans1" class="answer" />
+            <label for="ans1" id="option1">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans2" class="answer" />
+            <label for="ans2" id="option2">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans3" class="answer" />
+            <label for="ans3" id="option3">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="ans4" class="answer" />
+            <label for="ans4" id="option4">Option</label>
+          </li>
+        </ul>
+        <button id="submit">Submit</button>
+        <div id="showScore" class="scoreArea"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
